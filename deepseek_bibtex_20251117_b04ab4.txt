@@ -1,0 +1,6 @@
+@article{jimison2025hbd,
+    title={Hyperbolic Brane Dynamics: Geometric Dark Energy and CMB Anomalies},
+    author={Jimison, Nicholas R. C.},
+    year={2025},
+    journal={arXiv preprint}
+}
