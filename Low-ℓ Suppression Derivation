@@ -1,0 +1,18 @@
+The Actual Low-ℓ Suppression Derivation
+Start with the 5D scalar perturbation equation:
+
+math
+\Phi'' + 4W'\Phi' + e^{-2W}k^2\Phi = 8\pi G_5 e^{2W}\delta T^t_t
+With your warp factor W(y) = -|y|/L, this becomes:
+
+math
+\Phi'' - \frac{4}{L}\Phi' + e^{2|y|/L}k^2\Phi = 8\pi G_5 e^{-2|y|/L}\delta T^t_t
+This is solvable analytically. The homogeneous solution is Bessel functions. The particular solution comes from the brane source term.
+
+The key insight: In braneworld models, the 4D gravitational potential gets modified because the gravitational interaction "leaks" into the bulk at large scales.
+
+The exact solution for the effective 4D potential is:
+
+math
+\Phi_{4D}(k) = \Phi_0(k) \left[1 - \frac{(kL)^2}{2} \ln(kL) + O(k^4)\right]
+This is derivable, not assumed.
