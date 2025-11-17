@@ -1,0 +1,32 @@
+hbd-cosmology/
+├── README.md
+├── requirements.txt
+├── setup.py
+├── src/
+│   ├── hbd/
+│   │   ├── __init__.py
+│   │   ├── background.py
+│   │   ├── perturbations.py
+│   │   ├── spectra.py
+│   │   ├── class_interface.py
+│   │   ├── parameters.py
+│   │   └── utils.py
+│   └── scripts/
+│       ├── run_hbd.py
+│       ├── plot_spectra.py
+│       └── mcmc_analysis.py
+├── examples/
+│   ├── basic_usage.py
+│   ├── cmb_comparison.py
+│   └── falsifiability_test.py
+├── data/
+│   ├── planck_2018/
+│   └── hbd_fiducial_params.ini
+├── tests/
+│   ├── test_background.py
+│   ├── test_perturbations.py
+│   └── test_spectra.py
+└── docs/
+    ├── theory_derivation.md
+    ├── installation.md
+    └── api_reference.md
